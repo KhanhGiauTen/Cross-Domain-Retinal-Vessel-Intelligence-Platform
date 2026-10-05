@@ -2,6 +2,10 @@
 
 Deep Learning-based Retinal Vessel Segmentation and Vascular Analysis using DeepLabV3+-ResNet50, SegFormer-B0, and Transfer Learning.
 
+## Public Browser Demo
+
+[Cross-Domain Vessel Lab](https://cross-domain-vessel-lab.vercel.app) runs the tracked SegFormer-B0 checkpoint directly in the browser. Recruiters can select a published example or a local image, adjust the threshold, inspect masks/probabilities/overlays, and download PNG/JSON results. Images stay on the device. Only SegFormer is hosted; DeepLab weights are not included. Academic research only, not diagnosis. See [browser deployment and validation](docs/browser-demo.md).
+
 The project implements and compares two modern semantic segmentation approaches:
 
 - **CNN-based model:** DeepLabV3+-ResNet50, using a ResNet50 backbone pretrained on ImageNet.

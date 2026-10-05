@@ -42,3 +42,9 @@ dataset/drive_test_dataset.pt
 src/models/best_deeplabv3_resnet50.pth
 src/models/*.pth
 \[Deep Learning\] REPORT.pdf
+
+# Public browser demo
+node_modules/
+.vercel/
+web-demo/public/runtime/
+web-demo/artifacts/

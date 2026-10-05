@@ -1,0 +1,20 @@
+{
+  "name": "cross-domain-vessel-browser-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.0.0" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/copy-runtime.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/image-processing.test.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "lucide-react": "^0.468.0",
+    "onnxruntime-web": "1.30.0"
+  },
+  "devDependencies": { "vite": "8.3.2" }
+}
